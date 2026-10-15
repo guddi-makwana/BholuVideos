@@ -1,0 +1,22 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+client_secret*.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Build / Output artifacts
+output/
+temp/
+*.mp4
+!assets/*.mp3
+!assets/*.jpg
+!assets/*.png
